@@ -1,0 +1,99 @@
+body.homepage {
+    background-image: url("https://www.graffiti.org/ireland/tupacbyartz_biggiebydcypher_ireland.07.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: repeat-y;
+}
+
+
+h1 {
+  padding-top: 25px;
+  font-size: 50px;
+  color: yellow;
+   font-family: 'Cutive Mono', monospace;
+  text-shadow:
+   -1px -1px 0 #580000,  
+    1px -1px 0 #580000,
+    -1px 1px 0 #580000,
+     1px 1px 0 #580000;
+     outline-color: #580000;
+}
+
+p, h2, h3, h4 {
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+  text-shadow:
+   -1px -1px 0 #580000,  
+    1px -1px 0 #580000,
+    -1px 1px 0 #580000,
+     1px 1px 0 #580000;
+     outline-color: #580000;
+}
+
+.here {
+  color: yellow;
+}
+.container-4{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.container-4 #search{
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: center;
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.return {
+  color: white;
+  text-shadow:
+   -1px -1px 0 #580000,  
+    1px -1px 0 #580000,
+    -1px 1px 0 #580000,
+     1px 1px 0 #580000;
+     outline-color: #580000;
+}
+
+.icon {
+  
+}
+#ex {
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+  text-shadow:
+   -1px -1px 0 #580000,  
+    1px -1px 0 #580000,
+    -1px 1px 0 #580000,
+     1px 1px 0 #580000;
+     outline-color: #580000;
+
+}
+.newPageBody {
+  background-size: 100%;
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-image: url("https://c1.staticflickr.com/6/5498/11441050105_2dd309dc6d_b.jpg");
+
+
+}
+.result {
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+     max-height: 200px;
+     max-width: 400px;
+     margin: 0 auto;
+     overflow-y: scroll;
+     background-color: rgba(0,0,0,0.5);
+}
