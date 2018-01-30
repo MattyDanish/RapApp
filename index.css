@@ -1,10 +1,17 @@
 body.homepage {
-    background-image: url("https://www.graffiti.org/ireland/tupacbyartz_biggiebydcypher_ireland.07.jpg");
+  background-image: url("https://www.graffiti.org/ireland/tupacbyartz_biggiebydcypher_ireland.07.jpg");
     width: 100%;
     height: 100%;
     background-size: 100%;
     background-position: center center;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y;   
+}
+.hompageBackgroundImage {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 
@@ -97,3 +104,24 @@ p, h2, h3, h4 {
      overflow-y: scroll;
      background-color: rgba(0,0,0,0.5);
 }
+@media only screen and (max-width: 768px) {
+  body.homepage {
+background-image: none;     
+}
+
+.hompageBackgroundImage {
+    background-image: url("https://www.graffiti.org/ireland/tupacbyartz_biggiebydcypher_ireland.07.jpg");
+    width: 100%;
+    height: 100vw;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+}
+
+
