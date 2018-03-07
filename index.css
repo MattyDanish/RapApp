@@ -1,18 +1,21 @@
-body.homepage {
-  background-image: url("https://www.graffiti.org/ireland/tupacbyartz_biggiebydcypher_ireland.07.jpg");
-    width: 100%;
-    height: 100%;
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: repeat-y;   
-}
-.hompageBackgroundImage {
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
+.backgroundImage { 
+	width: 100%; 
+	height: 100%; 
+	position: fixed; 
+	top:0; 
+	left:0; 
+	z-index: -1; 
+	background-size: cover; 
+	background-position: center center; 
+	background-repeat: repeat-y; 
+	} 
+	.pageOne { 
+		background-image: url("https://www.graffiti.org/ireland/tupacbyartz_biggiebydcypher_ireland.07.jpg"); 
+		} 
+	
+	.pageTwo { 
+		background-image: url("https://c1.staticflickr.com/6/5498/11441050105_2dd309dc6d_b.jpg"); 
+	}
 
 
 h1 {
@@ -87,14 +90,7 @@ p, h2, h3, h4 {
      outline-color: #580000;
 
 }
-.newPageBody {
-  background-size: 100%;
-    background-position: center top;
-    background-repeat: repeat-y;
-    background-image: url("https://c1.staticflickr.com/6/5498/11441050105_2dd309dc6d_b.jpg");
 
-
-}
 .result {
   color: white;
   font-family: 'Cutive Mono', monospace;
@@ -107,17 +103,4 @@ p, h2, h3, h4 {
 @media only screen and (max-width: 768px) {
   body.homepage {
 background-image: none;     
-}
-
-.hompageBackgroundImage {
-    background-image: url("https://www.graffiti.org/ireland/tupacbyartz_biggiebydcypher_ireland.07.jpg");
-    width: 100%;
-    height: 100vw;
-    background-size: cover;
-    background-position: center center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
 }
